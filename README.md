@@ -1,2 +1,5 @@
 # String-Permutations-Generator
-A C++ program that generates all unique permutations of a given string using recursion, sorting, and backtracking.
+
+One-line description: A C++ program that generates all unique permutations of a given string using recursion, sorting, and backtracking.
+
+Summary: This C++ program takes a string, such as "123", and generates all unique permutations by recursively swapping characters. It starts from the leftmost index and swaps each character in turn with every character to its right, recursively generating permutations for the substring to the right of the current position. Before each recursive call, the substring from the current position to the end is sorted to ensure that duplicate permutations are not generated. This is particularly important for handling strings with repeated characters. Each permutation is printed as it is created, and the function also counts the total number of unique permutations generated. The process uses backtracking to restore the string to its original state after exploring all possibilities for a given character position. The result is a list of all unique permutations of the string and the count of how many there are.
